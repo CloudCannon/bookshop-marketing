@@ -9,7 +9,7 @@ plugins:
 # Multiple bookshops can be used on one website,
 # or different production / staging locations.
 bookshop_locations:
-  - ../ecosystem-components-library # CloudCannon production bookshop library
+  - ../bookshop_gem # CloudCannon production bookshop library
   - ../../ecosystem-components-library # local development bookshop library
 
 exclude:
