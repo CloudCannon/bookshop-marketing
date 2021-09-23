@@ -1,8 +1,8 @@
 source "https://rubygems.org"
 
 group :jekyll_plugins do
-  gem "jekyll-bookshop", ">= 2.0.0.pre.beta.28"
-  gem "cloudcannon-jekyll-bookshop", ">= 2.0.0.pre.beta.28"
+  gem "jekyll-bookshop", ">= 2.0.0.pre.beta.29"
+  gem "cloudcannon-jekyll-bookshop", ">= 2.0.0.pre.beta.29"
   gem 'jekyll-watch', :git => "https://github.com/CloudCannon/jekyll-watch"
   gem 'ecosystem-components-library', git: "https://github.com/cloudcannon/ecosystem-components-library.git", :branch => 'main' 
   gem 'jekyll-postcss-v2'
