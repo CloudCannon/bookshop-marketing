@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
-GEM_LOC=$(bundle info --path ecosystem-components-library) && ln -sfn $GEM_LOC bookshop_gem
+GEM_LOC=$(bundle info --path ecosystem-components-library)
+echo "Linking $GEM_LOC"
+ln -sfn $GEM_LOC bookshop_gem
 
 npm install
 
