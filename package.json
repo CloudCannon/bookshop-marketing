@@ -4,7 +4,7 @@
   "description": "The Bookshop marketing website",
   "scripts": {
     "bookshop-dev": "bookshop-browser -p 6061 -b ../ecosystem-components-library",
-    "bookshop-live": "bookshop-live -b ./ecosystem-components-library -o bookshop/_cloudcannon/bookshop-live.js",
+    "bookshop-live": "bookshop-live -b ./bookshop_gem -o bookshop/_cloudcannon/bookshop-live.js",
     "jekyll": "BUNDLE_GEMFILE=bookshop/Gemfile bundle exec jekyll serve --source bookshop --port 6060 --trace --unpublished",
     "start": "run-p bookshop-dev jekyll",
     "install-jekyll": "BUNDLE_GEMFILE=bookshop/Gemfile bundle install",
