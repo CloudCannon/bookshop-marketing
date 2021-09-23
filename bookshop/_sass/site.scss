@@ -1,0 +1,25 @@
+:root {
+    --background: #fff;
+    --primary-color: #FF6242;
+}
+
+* {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    -webkit-overflow-scrolling: touch;
+    margin: 0;
+}
+
+.body {
+    display: grid;
+    grid-template-rows: auto 1fr auto; //ensures footer is always at the bottom
+    gap: 40px; // set space between header, main content and footer
+    height: 100%;
+}
+
