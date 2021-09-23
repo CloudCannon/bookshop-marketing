@@ -12,6 +12,9 @@ bookshop_locations:
   - ../bookshop_gem # CloudCannon production bookshop library
   - ../../ecosystem-components-library # local development bookshop library
 
+include:
+  - _cloudcannon
+
 exclude:
   - postcss.config.js
   - node_modules
